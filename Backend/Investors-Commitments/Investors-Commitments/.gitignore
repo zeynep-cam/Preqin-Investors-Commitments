@@ -1,0 +1,62 @@
+# Ignore Visual Studio specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build outputs
+bin/
+obj/
+out/
+
+# Ignore package dependencies
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+*.dll
+*.pdb
+*.exe
+
+# Ignore Rider IDE files
+.idea/
+*.sln.iml
+
+# Ignore log and cache files
+logs/
+*.log
+*.cache
+*.vsconfig
+
+# Ignore temp files
+*.tmp
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+
+# Ignore environment files
+.env
+.env.local
+
+# Ignore Resharper and Code Analysis files
+_ReSharper.Caches/
+*.DotSettings.user
+
+# Ignore publish and deploy files
+publish/
+app.publish/
+
+# Ignore coverage and test results
+TestResults/
+coverage/
+*.coverlet/
+*.trx
+*.xml
+
+# Ignore secrets (if applicable)
+secrets.json
+
+# Ignore Node.js dependencies (if using frontend)
+node_modules/

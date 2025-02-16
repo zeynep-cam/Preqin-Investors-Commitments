@@ -50,7 +50,6 @@ public class CSVParser
                 investor.Commitments.Add(commitment);
             }
         }
-        
         return investors.Values.ToList();
     }
 }
