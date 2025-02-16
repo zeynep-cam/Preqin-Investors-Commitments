@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7e0fNCvDGSg=",
+  "dgSpecHash": "wlGvfB0XOQg=",
   "success": true,
   "projectFilePath": "/Users/zeynepmerveyanar/Documents/GitHub/Preqin-Investors-Commitments/Backend/Investors-Commitments/Investors-Commitments/Investors-Commitments.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/zeynepmerveyanar/.nuget/packages/csvhelper/33.0.1/csvhelper.33.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
