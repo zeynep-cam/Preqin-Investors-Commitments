@@ -1,0 +1,6 @@
+﻿services:
+  investors-commitments:
+    image: investors-commitments
+    build:
+      context: .
+      dockerfile: Investors-Commitments/Dockerfile
