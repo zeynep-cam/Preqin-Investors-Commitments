@@ -32,7 +32,7 @@ public class CSVParser
             }
         }
         
-        //Required to reset and re-read the CSV 
+        //Required to reset and re-read the CSV to Extract Commitment data
         streamReader.BaseStream.Seek(0, SeekOrigin.Begin);
         streamReader.DiscardBufferedData();
         csvReader.Read();
